@@ -1,5 +1,5 @@
 import fetch from 'node-fetch'
-import { toASCII } from 'punycode'
+import ejs from 'ejs'
 
 const blob = 'https://raw.githubusercontent.com/leanprover/vscode-lean/master/translations.json'
 const unicode_block_table = 'https://unicode.org/Public/UNIDATA/Blocks.txt'
@@ -7,6 +7,10 @@ const unicode_block_table = 'https://unicode.org/Public/UNIDATA/Blocks.txt'
 type entry = {
   sym: string,
   block: string,
+}
+type symBind = { 
+  sym: string, 
+  bind: string[], // key bind for sym, like '\alpha'
 }
 const unicodeBlocktable = async() => {
   const raw = await fetch(unicode_block_table).then((r) => r.text())
@@ -21,11 +25,12 @@ const unicodeBlocktable = async() => {
     if (!range || !block) {
       return
     }
+    block = block.trim()
     let [from, to] = range.split('..').map((v) => parseInt(v, 16))
     if (from == NaN || to == NaN) {
       return
     }
-    console.log(from, to, block)
+
     for (let c=from; c<=to; ++c) {
       table.set(c, {
         sym: String.fromCodePoint(c),
@@ -39,15 +44,28 @@ const unicodeBlocktable = async() => {
 const main = async() => {
   const blockTable = await unicodeBlocktable()
 
-  console.log([...blockTable])
-
   const mapping = await fetch(blob).then((r) => r.json())
   let inverse: {[key:string]: string[]} = {}
-  for (let [k, v] of Object.entries(mapping)) {
-    if (typeof v == 'string')
-      inverse[v] = [...(inverse[v] || []), k]
+  let blockwise: {[key:string]: symBind[] } = {}
+  for (let [key, sym] of Object.entries(mapping)) {
+    if (typeof sym == 'string') {
+      const bind = [...(inverse[sym] ?? []), key]
+      inverse[sym] = bind
+
+      const block = blockTable.get(sym.codePointAt(0) ?? -1)?.block ?? '';
+      blockwise[block] = [...(blockwise[block] ?? []), { sym, bind }]
+    }
   }
-  console.log(mapping, inverse)
+
+  const repoDir = 'vscode-lean-symbols'
+  const data = {
+    rawUrl: blob,
+    repo: `https://github.com/ntabee/${repoDir}`,
+    repoDir,
+  }
+  await process.stdout.write(
+    await ejs.renderFile('templates/README.md', data, {})
+  )
 }
 
 main()
