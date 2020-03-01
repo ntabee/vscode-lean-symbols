@@ -1,0 +1,9 @@
+#!/bin/bash
+
+curl --silent https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc > gh-md-toc
+chmod a+x gh-md-toc
+
+npm start --silent > README.md
+
+# Generate & insert ToC
+sed -i -e '/%%TOC%%/r'<(./gh-md-toc README.md) README.md
