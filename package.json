@@ -9,7 +9,7 @@
     "clean": "rimraf dist/*",
     "tsc": "tsc",
     "build": "npm-run-all clean tsc",
-    "start": "node .",
+    "start": "npm run dev --silent",
     "lint": "eslint --ext .ts,.js src/",
     "format": "prettier --write 'src/**/*.{ts,js}'",
     "precommit": "lint-staged"
