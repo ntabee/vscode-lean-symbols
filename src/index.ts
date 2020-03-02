@@ -41,6 +41,16 @@ const unicodeBlocktable = async() => {
   return table
 }
 
+const chunk = <T>(arr: T[], size: number) => {
+  let chunks = []
+  let i = 0
+  while (i < arr.length) {
+    chunks.push(arr.slice(i, size+i))
+    i += size
+  }
+  return chunks
+}
+
 const main = async() => {
   const blockTable = await unicodeBlocktable()
 
@@ -58,10 +68,20 @@ const main = async() => {
   }
 
   const repoDir = 'vscode-lean-symbols'
+  const mdQuot = (s:string) => `\`${s}\``
+
   const data = {
+    // util. funcs
+    chunk,
+    mdQuot,
+    renderBind: ({sym, bind}: symBind) => (
+      `${mdQuot(sym)}: ${bind.map((name) => mdQuot(`\\${name}`)).join(', ')}`
+    ),
+    // data
     rawUrl: blob,
     repo: `https://github.com/ntabee/${repoDir}`,
     repoDir,
+    blockwise,
   }
   await process.stdout.write(
     await ejs.renderFile('templates/README.md', data, {})
