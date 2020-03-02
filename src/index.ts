@@ -61,8 +61,11 @@ const main = async() => {
     if (typeof sym == 'string') {
       const bind = [...(inverse[sym] ?? []), key]
       inverse[sym] = bind
-
-      const block = blockTable.get(sym.codePointAt(0) ?? -1)?.block ?? '';
+    }
+  }
+  for (let [sym, bind] of Object.entries(inverse)) {
+    if (typeof sym == 'string') {
+      const block = blockTable.get(sym.codePointAt(0) ?? -1)?.block ?? ''
       blockwise[block] = [...(blockwise[block] ?? []), { sym, bind }]
     }
   }

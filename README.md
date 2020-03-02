@@ -71,188 +71,88 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ## Arrows
 
-- `↓`: `\d`
-- `→`: `\r`
-- `↑`: `\u`
-- `←`: `\l`
-- `⇍`: `\nLeftarrow`
-- `⇎`: `\nLeftrightarrow`
-- `⇏`: `\nRightarrow`
-- `↗`: `\nearrow`
-- `↚`: `\nleftarrow`
-- `↮`: `\nleftrightarrow`
-- `↛`: `\nrightarrow`
-- `↖`: `\nwarrow`
-- `↔`: `\iff`
-- `→`: `\r`, `\imp`
-- `⇏`: `\nRightarrow`, `\=>n`
-- `⇒`: `\=>`
+- `↓`: `\d`, `\downarrow`, `\d-`
+- `→`: `\r`, `\imp`, `\->`, `\to`, `\r-`, `\rightarrow`
+- `↑`: `\u`, `\u-`, `\uparrow`
+- `←`: `\l`, `\leftarrow`, `\l-`, `\gets`, `\<-`
+- `⇍`: `\nLeftarrow`, `\l=n`
+- `⇎`: `\nLeftrightarrow`, `\lr=n`, `\<=>n`
+- `⇏`: `\nRightarrow`, `\=>n`, `\r=n`
+- `↗`: `\nearrow`, `\ur-`, `\ur`
+- `↚`: `\nleftarrow`, `\l-n`, `\<-n`
+- `↮`: `\nleftrightarrow`, `\lr-n`, `\<->n`
+- `↛`: `\nrightarrow`, `\->n`, `\r-n`
+- `↖`: `\nwarrow`, `\ul-`, `\ul`
+- `↔`: `\iff`, `\leftrightarrow`, `\lr-`, `\lr`, `\<->`
+- `⇒`: `\=>`, `\Longrightarrow`, `\r=`, `\Rightarrow`
 - `↩`: `\hookleftarrow`
 - `↪`: `\hookrightarrow`
-- `↛`: `\nrightarrow`, `\->n`
-- `→`: `\r`, `\imp`, `\->`
-- `↞`: `\twoheadleftarrow`
-- `↠`: `\twoheadrightarrow`
-- `→`: `\r`, `\imp`, `\->`, `\to`
-- `→₀`: `\to0`
-- `→₀`: `\to0`, `\r0`
-- `→₀`: `\to0`, `\r0`, `\to_0`
-- `→₀`: `\to0`, `\r0`, `\to_0`, `\r_0`
+- `↞`: `\twoheadleftarrow`, `\ll-`
+- `↠`: `\twoheadrightarrow`, `\rr-`
 - `→₀`: `\to0`, `\r0`, `\to_0`, `\r_0`, `\finsupp`
-- `→₁`: `\to1`
-- `→₁`: `\to1`, `\r1`
-- `→₁`: `\to1`, `\r1`, `\to_1`
-- `→₁`: `\to1`, `\r1`, `\to_1`, `\r_1`
 - `→₁`: `\to1`, `\r1`, `\to_1`, `\r_1`, `\l1`
-- `→₁ₛ`: `\to1s`
-- `→₁ₛ`: `\to1s`, `\r1s`
-- `→₁ₛ`: `\to1s`, `\r1s`, `\to_1s`
-- `→₁ₛ`: `\to1s`, `\r1s`, `\to_1s`, `\r_1s`
 - `→₁ₛ`: `\to1s`, `\r1s`, `\to_1s`, `\r_1s`, `\l1simplefunc`
-- `→ₐ`: `\toa`
-- `→ₐ`: `\toa`, `\ra`
-- `→ₐ`: `\toa`, `\ra`, `\to_a`
-- `→ₐ`: `\toa`, `\ra`, `\to_a`, `\r_a`
 - `→ₐ`: `\toa`, `\ra`, `\to_a`, `\r_a`, `\alghom`
-- `→ᵇ`: `\tob`
-- `→ᵇ`: `\tob`, `\rb`
-- `→ᵇ`: `\tob`, `\rb`, `\to^b`
-- `→ᵇ`: `\tob`, `\rb`, `\to^b`, `\r^b`
 - `→ᵇ`: `\tob`, `\rb`, `\to^b`, `\r^b`, `\boundedcontinuousfunction`
-- `→ₗ`: `\tol`
-- `→ₗ`: `\tol`, `\rl`
-- `→ₗ`: `\tol`, `\rl`, `\to_l`
-- `→ₗ`: `\tol`, `\rl`, `\to_l`, `\r_l`
 - `→ₗ`: `\tol`, `\rl`, `\to_l`, `\r_l`, `\linearmap`
-- `→ₘ`: `\tom`
-- `→ₘ`: `\tom`, `\rm`
-- `→ₘ`: `\tom`, `\rm`, `\to_m`
-- `→ₘ`: `\tom`, `\rm`, `\to_m`, `\r_m`
 - `→ₘ`: `\tom`, `\rm`, `\to_m`, `\r_m`, `\aeeqfun`
-- `→ₚ`: `\rp`
-- `→ₚ`: `\rp`, `\to_p`
-- `→ₚ`: `\rp`, `\to_p`, `\r_p`
 - `→ₚ`: `\rp`, `\to_p`, `\r_p`, `\dfinsupp`
-- `→ₛ`: `\tos`
-- `→ₛ`: `\tos`, `\rs`
-- `→ₛ`: `\tos`, `\rs`, `\to_s`
-- `→ₛ`: `\tos`, `\rs`, `\to_s`, `\r_s`
 - `→ₛ`: `\tos`, `\rs`, `\to_s`, `\r_s`, `\simplefunc`
-- `↓`: `\d`, `\downarrow`
-- `⇊`: `\downdownarrows`
+- `⇊`: `\downdownarrows`, `\d-2`
 - `⇃`: `\downleftharpoon`
 - `⇂`: `\downrightharpoon`
-- `↘`: `\dr-`
+- `↘`: `\dr-`, `\dr`, `\searrow`
 - `⇘`: `\dr=`
-- `↘`: `\dr-`, `\dr`
-- `↙`: `\dl-`
+- `↙`: `\dl-`, `\dl`, `\swarrow`
 - `⇙`: `\dl=`
-- `↙`: `\dl-`, `\dl`
-- `⇊`: `\downdownarrows`, `\d-2`
 - `⇵`: `\d-u-`
 - `↧`: `\d-|`
-- `↓`: `\d`, `\downarrow`, `\d-`
-- `⇓`: `\d=`
+- `⇓`: `\d=`, `\Downarrow`
 - `↡`: `\dd-`
 - `↯`: `\dz`
-- `↦`: `\mapsto`
-- `↣`: `\pr`
-- `↝`: `\leadsto`
-- `↢`: `\leftarrowtail`
-- `←`: `\l`, `\leftarrow`
+- `↦`: `\mapsto`, `\r-|`
+- `↣`: `\pr`, `\r->`, `\rightarrowtail`
+- `↝`: `\leadsto`, `\r~`
+- `↢`: `\leftarrowtail`, `\l->`
 - `↽`: `\leftharpoondown`
 - `↼`: `\leftharpoonup`
-- `⇇`: `\leftleftarrows`
-- `⇆`: `\leftrightarrows`
-- `↔`: `\iff`, `\leftrightarrow`
-- `⇋`: `\leftrightharpoons`
-- `↭`: `\leftrightsquigarrow`
-- `↮`: `\nleftrightarrow`, `\lr-n`
-- `↔`: `\iff`, `\leftrightarrow`, `\lr-`
-- `⇎`: `\nLeftrightarrow`, `\lr=n`
-- `⇔`: `\lr=`
-- `↭`: `\leftrightsquigarrow`, `\lr~`
-- `↔`: `\iff`, `\leftrightarrow`, `\lr-`, `\lr`
 - `⇇`: `\leftleftarrows`, `\l-2`
 - `⇆`: `\leftrightarrows`, `\l-r-`
-- `↚`: `\nleftarrow`, `\l-n`
+- `⇋`: `\leftrightharpoons`
+- `↭`: `\leftrightsquigarrow`, `\lr~`
+- `⇔`: `\lr=`, `\<=>`, `\Leftrightarrow`, `\Longleftrightarrow`
 - `↤`: `\l-|`
-- `↢`: `\leftarrowtail`, `\l->`
-- `←`: `\l`, `\leftarrow`, `\l-`
-- `⇚`: `\l==`
-- `⇍`: `\nLeftarrow`, `\l=n`
-- `⇐`: `\l=`
-- `↜`: `\l~`
-- `↞`: `\twoheadleftarrow`, `\ll-`
-- `↫`: `\looparrowleft`
-- `↬`: `\looparrowright`
-- `←`: `\l`, `\leftarrow`, `\l-`, `\gets`
-- `⇎`: `\nLeftrightarrow`, `\lr=n`, `\<=>n`
-- `⇔`: `\lr=`, `\<=>`
-- `↮`: `\nleftrightarrow`, `\lr-n`, `\<->n`
-- `↔`: `\iff`, `\leftrightarrow`, `\lr-`, `\lr`, `\<->`
-- `↚`: `\nleftarrow`, `\l-n`, `\<-n`
-- `←`: `\l`, `\leftarrow`, `\l-`, `\gets`, `\<-`
-- `⇝`: `\squigarrowright`
-- `↘`: `\dr-`, `\dr`, `\searrow`
-- `↙`: `\dl-`, `\dl`, `\swarrow`
-- `↨`: `\ud-|`
-- `↕`: `\ud-`
-- `⇕`: `\ud=`
-- `↕`: `\ud-`, `\ud`
-- `↖`: `\nwarrow`, `\ul-`
-- `⇖`: `\ul=`
-- `↖`: `\nwarrow`, `\ul-`, `\ul`
-- `↗`: `\nearrow`, `\ur-`
-- `⇗`: `\ur=`
-- `↗`: `\nearrow`, `\ur-`, `\ur`
-- `⇈`: `\u-2`
-- `⇅`: `\u-d-`
-- `↥`: `\u-|`
-- `↑`: `\u`, `\u-`
-- `⇑`: `\u=`
-- `↟`: `\uu-`
-- `↑`: `\u`, `\u-`, `\uparrow`
-- `↕`: `\ud-`, `\ud`, `\updownarrow`
-- `↿`: `\upleftharpoon`
-- `↾`: `\uprightharpoon`
-- `⇈`: `\u-2`, `\upuparrows`
-- `⇑`: `\u=`, `\Uparrow`
-- `⇕`: `\ud=`, `\Updownarrow`
-- `⇐`: `\l=`, `\Leftarrow`
-- `⇔`: `\lr=`, `\<=>`, `\Leftrightarrow`
 - `⇚`: `\l==`, `\Lleftarrow`
 - `⇐`: `\l=`, `\Leftarrow`, `\Longleftarrow`
-- `⇔`: `\lr=`, `\<=>`, `\Leftrightarrow`, `\Longleftrightarrow`
-- `⇒`: `\=>`, `\Longrightarrow`
+- `↜`: `\l~`
+- `↫`: `\looparrowleft`
+- `↬`: `\looparrowright`
+- `⇝`: `\squigarrowright`
+- `↨`: `\ud-|`
+- `↕`: `\ud-`, `\ud`, `\updownarrow`
+- `⇕`: `\ud=`, `\Updownarrow`
+- `⇖`: `\ul=`
+- `⇗`: `\ur=`
+- `⇈`: `\u-2`, `\upuparrows`
+- `⇅`: `\u-d-`
+- `↥`: `\u-|`
+- `⇑`: `\u=`, `\Uparrow`
+- `↟`: `\uu-`
+- `↿`: `\upleftharpoon`
+- `↾`: `\uprightharpoon`
 - `↰`: `\Lsh`
 - `↶`: `\curvearrowleft`
 - `↷`: `\curvearrowright`
 - `↺`: `\circlearrowleft`
 - `↻`: `\circlearrowright`
-- `⇉`: `\r-2`
+- `⇉`: `\r-2`, `\rightrightarrows`
 - `⇶`: `\r-3`
-- `⇄`: `\r-l-`
-- `↛`: `\nrightarrow`, `\->n`, `\r-n`
-- `↦`: `\mapsto`, `\r-|`
-- `↣`: `\pr`, `\r->`
-- `→`: `\r`, `\imp`, `\->`, `\to`, `\r-`
-- `⇛`: `\r==`
-- `⇏`: `\nRightarrow`, `\=>n`, `\r=n`
-- `⇒`: `\=>`, `\Longrightarrow`, `\r=`
-- `↝`: `\leadsto`, `\r~`
-- `↠`: `\twoheadrightarrow`, `\rr-`
-- `↣`: `\pr`, `\r->`, `\rightarrowtail`
-- `→`: `\r`, `\imp`, `\->`, `\to`, `\r-`, `\rightarrow`
+- `⇄`: `\r-l-`, `\rightleftarrows`
+- `⇛`: `\r==`, `\Rrightarrow`
 - `⇁`: `\rightharpoondown`
 - `⇀`: `\rightharpoonup`
-- `⇄`: `\r-l-`, `\rightleftarrows`
 - `⇌`: `\rightleftharpoons`
-- `⇉`: `\r-2`, `\rightrightarrows`
-- `⇒`: `\=>`, `\Longrightarrow`, `\r=`, `\Rightarrow`
-- `⇛`: `\r==`, `\Rrightarrow`
-- `↱`: `\Rsh`
-- `⇓`: `\d=`, `\Downarrow` 
+- `↱`: `\Rsh` 
 
 ## Box Drawing
 
@@ -273,34 +173,29 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ## Currency Symbols
 
-- `₦`: `\naira`
+- `₦`: `\naira`, `\textnaira`
 - `€`: `\euro`
 - `₴`: `\hryvnia`
 - `₳`: `\austral`
 - `₸`: `\tenge`
-- `₡`: `\textcolonmonetary`
-- `₩`: `\textwon`
-- `₦`: `\naira`, `\textnaira`
-- `₱`: `\textpeso`
-- `₤`: `\textlira`
+- `₡`: `\textcolonmonetary`, `\colon`
+- `₩`: `\textwon`, `\won`
+- `₱`: `\textpeso`, `\peso`
+- `₤`: `\textlira`, `\lira`
 - `₮`: `\tugrik`
 - `₫`: `\dong`
 - `₯`: `\drachma`
 - `₼`: `\manat`
 - `₥`: `\mill`
-- `₱`: `\textpeso`, `\peso`
 - `₧`: `\peseta`
 - `₾`: `\lari`
-- `₤`: `\textlira`, `\lira`
 - `₲`: `\guarani`
 - `₷`: `\spesmilo`
-- `₡`: `\textcolonmonetary`, `\colon`
 - `₵`: `\cedi`
 - `₢`: `\cruzeiro`
 - `₽`: `\ruble`
 - `₨`: `\rupee`
-- `₭`: `\kip`
-- `₩`: `\textwon`, `\won` 
+- `₭`: `\kip` 
 
 ## Dingbats
 
@@ -308,13 +203,12 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - `✠`: `\maltese`
 - `✂`: `\8<`
 - `✧`: `\lozenge`
-- `✦`: `\st4`
+- `✦`: `\st4`, `\blacklozenge`
 - `✶`: `\st6`
 - `✴`: `\st8`
 - `✹`: `\st12`
 - `✉`: `\Letter`
-- `✓`: `\checkmark`
-- `✦`: `\st4`, `\blacklozenge` 
+- `✓`: `\checkmark` 
 
 ## Enclosed Alphanumerics
 
@@ -333,249 +227,143 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - `⁄`: `\textfractionsolidus`
 - `⁒`: `\textdiscount`
 - `‱`: `\textpertenthousand`
-- `⁅`: `\textlquill`
+- `⁅`: `\textlquill`, `\liel`, `\[-`, `\bracketl`
 - `※`: `\textreferencemark`
-- `⁆`: `\textrquill`
-- `‽`: `\textinterrobang`
-- `‡`: `\ddagger`
+- `⁆`: `\textrquill`, `\lier`, `\-]`, `\bracketr`
+- `‽`: `\textinterrobang`, `\?!`
 - `‡`: `\ddagger`, `\ddag`
-- `†`: `\dagger`
 - `†`: `\dagger`, `\dag`
 - `⁇`: `\??`
-- `‽`: `\textinterrobang`, `\?!`
-- `′`: `\prime`
+- `′`: `\prime`, `\varprime`
 - `‰`: `\permil`
 - `…`: `\ldots`
-- `“`: `\ldq`
-- `‘`: `\lq`
-- `„`: `\glqq`
-- `‚`: `\glq`
 - `“`: `\ldq`, `\grqq`
 - `‘`: `\lq`, `\grq`
+- `„`: `\glqq`
+- `‚`: `\glq`
 - `‿`: `\undertie`
 - ` `: `\quad`
-- `•`: `\bub`
-- `‣`: `\but`
 - `•`: `\bub`, `\bu`
+- `‣`: `\but`
 - `‵`: `\backprime`
 - `’`: `\rq`
 - `”`: `\rdq`
-- `‹`: `\f<`
-- `›`: `\f>`
-- `›`: `\f>`, `\frq`
 - `‹`: `\f<`, `\flq`
+- `›`: `\f>`, `\frq`
 - `‼`: `\!!`
 - `⁉`: `\!?`
-- `′`: `\prime`, `\varprime`
-- `⁅`: `\textlquill`, `\liel`
-- `⁅`: `\textlquill`, `\liel`, `\[-`
-- `⁅`: `\textlquill`, `\liel`, `\[-`, `\bracketl`
-- `⁆`: `\textrquill`, `\lier`
-- `⁆`: `\textrquill`, `\lier`, `\-]`
-- `⁆`: `\textrquill`, `\lier`, `\-]`, `\bracketr`
 - `‖`: `\Vert` 
 
 ## Geometric Shapes
 
-- `▸`: `\t`
-- `▹`: `\transport`
-- `▹`: `\transport`, `\trans`
-- `▿`: `\triangledown`
-- `◃`: `\triangleleft`
+- `▸`: `\t`, `\blacktriangleright`
 - `▹`: `\transport`, `\trans`, `\triangleright`
-- `▵`: `\triangle`
-- `◂`: `\tb`
+- `▿`: `\triangledown`
 - `◃`: `\triangleleft`, `\tw`
-- `◦`: `\textopenbullet`
-- `◆`: `\dib`
-- `◇`: `\diw`
-- `◈`: `\di.`
+- `▵`: `\triangle`
+- `◂`: `\tb`, `\blacktriangleleft`
+- `◦`: `\textopenbullet`, `\buw`
 - `◆`: `\dib`, `\di`
-- `▰`: `\pab`
-- `▱`: `\paw`
+- `◇`: `\diw`, `\Diamond`
+- `◈`: `\di.`
 - `▰`: `\pab`, `\pa`
-- `◁`: `\lhd`
-- `□`: `\square`
+- `▱`: `\paw`
+- `◁`: `\lhd`, `\Tw`
+- `□`: `\square`, `\sqw`, `\Box`
 - `■`: `\sqb`
-- `□`: `\square`, `\sqw`
 - `▣`: `\sq.`
 - `▢`: `\sqo`
 - `◾`: `\sq`
-- `◀`: `\Tr`
 - `◀`: `\Tr`, `\Tb`
-- `◁`: `\lhd`, `\Tw`
-- `●`: `\cib`
+- `●`: `\cib`, `\ci`
 - `○`: `\ciw`
 - `◌`: `\ci..`
 - `◎`: `\ci.`
-- `◯`: `\ciO`
-- `●`: `\cib`, `\ci`
-- `◦`: `\textopenbullet`, `\buw`
 - `◯`: `\ciO`, `\bigcirc`
 - `▽`: `\bigtriangledown`
 - `△`: `\bigtriangleup`
 - `▪`: `\blacksquare`
 - `▾`: `\blacktriangledown`
-- `◂`: `\tb`, `\blacktriangleleft`
-- `▸`: `\t`, `\blacktriangleright`
 - `▴`: `\blacktriangle`
-- `◫`: `\boxmid`
 - `◫`: `\boxmid`, `\hcomp`
-- `▬`: `\reb`
-- `▭`: `\rew`
 - `▬`: `\reb`, `\re`
-- `▷`: `\rhd`
-- `◇`: `\diw`, `\Diamond`
-- `□`: `\square`, `\sqw`, `\Box` 
+- `▭`: `\rew`
+- `▷`: `\rhd` 
 
 ## Greek and Coptic
 
-- `α`: `\a`
-- `β`: `\b`
-- `χ`: `\c`
-- `ε`: `\e`
-- `γ`: `\g`
-- `μ`: `\m`
-- `Π`: `\p`
-- `Δ`: `\D`
-- `Γ`: `\G`
-- `Λ`: `\L`
-- `Π`: `\p`, `\P`
-- `Σ`: `\S`
-- `β`: `\b`, `\be`
-- `γ`: `\g`, `\ga`
-- `δ`: `\de`
-- `ε`: `\e`, `\ep`
-- `ζ`: `\ze`
-- `η`: `\et`
-- `θ`: `\th`
-- `ι`: `\io`
-- `κ`: `\ka`
-- `λ`: `\la`
-- `μ`: `\m`, `\mu`
-- `ν`: `\nu`
-- `ξ`: `\xi`
-- `π`: `\pi`
-- `ρ`: `\rh`
-- `ς`: `\vsi`
-- `σ`: `\si`
-- `τ`: `\ta`
-- `φ`: `\ph`
-- `χ`: `\c`, `\ch`
-- `ψ`: `\ps`
-- `ω`: `\om`
-- `ε`: `\e`, `\ep`, `\epsilon`
-- `ε`: `\e`, `\ep`, `\epsilon`, `\eps`
+- `α`: `\a`, `\alpha`, `\Ga`
+- `β`: `\b`, `\be`, `\Gb`, `\beta`
+- `χ`: `\c`, `\ch`, `\Gc`, `\chi`
+- `ε`: `\e`, `\ep`, `\epsilon`, `\eps`, `\Ge`
+- `γ`: `\g`, `\ga`, `\gamma`, `\Gg`
+- `μ`: `\m`, `\mu`, `\Gm`
+- `Π`: `\p`, `\P`, `\Pi`
+- `Δ`: `\D`, `\GD`, `\Delta`
+- `Γ`: `\G`, `\Gamma`, `\GG`
+- `Λ`: `\L`, `\GL`, `\Lambda`, `\Lamda`
+- `Σ`: `\S`, `\GS`, `\Sigma`
+- `δ`: `\de`, `\delta`, `\Gd`
+- `ζ`: `\ze`, `\Gz`, `\zeta`
 - `η`: `\et`, `\eta`
-- `ι`: `\io`, `\iota`
+- `θ`: `\th`, `\theta`, `\Gth`
+- `ι`: `\io`, `\iota`, `\Gi`
+- `κ`: `\ka`, `\Gk`, `\kappa`
+- `λ`: `\la`, `\lambda`, `\lamda`, `\lam`, `\Gl`, `\fun`
+- `ν`: `\nu`, `\Gn`
+- `ξ`: `\xi`, `\Gx`
+- `π`: `\pi`
+- `ρ`: `\rh`, `\Gr`, `\rho`
+- `ς`: `\vsi`, `\varsigma`
+- `σ`: `\si`, `\sigma`, `\Gs`
+- `τ`: `\ta`, `\tau`, `\Gt`
+- `φ`: `\ph`, `\phi`, `\straightphi`, `\Gf`
+- `ψ`: `\ps`, `\psi`, `\Gp`
+- `ω`: `\om`, `\omega`, `\Go`
 - `ϩ`: `\hori`
 - `ͱ`: `\heta`
-- `α`: `\a`, `\alpha`
-- `ω`: `\om`, `\omega`
 - `ο`: `\omicron`
-- `θ`: `\th`, `\theta`
-- `τ`: `\ta`, `\tau`
 - `ϯ`: `\dei`
-- `δ`: `\de`, `\delta`
 - `ϝ`: `\digamma`
-- `ψ`: `\ps`, `\psi`
-- `φ`: `\ph`, `\phi`
-- `λ`: `\la`, `\lambda`
-- `λ`: `\la`, `\lambda`, `\lamda`
-- `λ`: `\la`, `\lambda`, `\lamda`, `\lam`
 - `ϫ`: `\gangia`
-- `γ`: `\g`, `\ga`, `\gamma`
 - `ϛ`: `\stigma`
-- `φ`: `\ph`, `\phi`, `\straightphi`
 - `ϻ`: `\san`
 - `ϡ`: `\sampi`
 - `ϸ`: `\sho`
 - `ϭ`: `\shima`
 - `ϣ`: `\shei`
-- `σ`: `\si`, `\sigma`
-- `Τ`: `\Tau`
-- `Θ`: `\Theta`
-- `υ`: `\upsilon`
-- `Α`: `\Alpha`
-- `Ω`: `\Omega`
-- `Ο`: `\Omicron`
-- `Ι`: `\Iota`
-- `Υ`: `\Upsilon`
-- `λ`: `\la`, `\lambda`, `\lamda`, `\lam`, `\Gl`
-- `Ϫ`: `\Gangia`
-- `Γ`: `\G`, `\Gamma`
-- `α`: `\a`, `\alpha`, `\Ga`
-- `Α`: `\Alpha`, `\GA`
-- `β`: `\b`, `\be`, `\Gb`
-- `Β`: `\GB`
-- `γ`: `\g`, `\ga`, `\gamma`, `\Gg`
-- `Γ`: `\G`, `\Gamma`, `\GG`
-- `δ`: `\de`, `\delta`, `\Gd`
-- `Δ`: `\D`, `\GD`
-- `ε`: `\e`, `\ep`, `\epsilon`, `\eps`, `\Ge`
-- `Ε`: `\GE`
-- `ζ`: `\ze`, `\Gz`
-- `Ζ`: `\GZ`
-- `θ`: `\th`, `\theta`, `\Gth`
-- `τ`: `\ta`, `\tau`, `\Gt`
-- `Θ`: `\Theta`, `\GTH`
 - `Τ`: `\Tau`, `\GT`
-- `ι`: `\io`, `\iota`, `\Gi`
-- `Ι`: `\Iota`, `\GI`
-- `κ`: `\ka`, `\Gk`
-- `Κ`: `\GK`
-- `Λ`: `\L`, `\GL`
-- `μ`: `\m`, `\mu`, `\Gm`
-- `Μ`: `\GM`
-- `ν`: `\nu`, `\Gn`
-- `Ν`: `\GN`
-- `ξ`: `\xi`, `\Gx`
-- `Ξ`: `\GX`
-- `ρ`: `\rh`, `\Gr`
-- `Ρ`: `\GR`
-- `σ`: `\si`, `\sigma`, `\Gs`
-- `Σ`: `\S`, `\GS`
+- `Θ`: `\Theta`, `\GTH`
 - `υ`: `\upsilon`, `\Gu`
-- `Υ`: `\Upsilon`, `\GU`
-- `φ`: `\ph`, `\phi`, `\straightphi`, `\Gf`
-- `Φ`: `\GF`
-- `χ`: `\c`, `\ch`, `\Gc`
-- `Χ`: `\GC`
-- `ψ`: `\ps`, `\psi`, `\Gp`
-- `Ψ`: `\GP`
-- `ω`: `\om`, `\omega`, `\Go`
+- `Α`: `\Alpha`, `\GA`
 - `Ω`: `\Omega`, `\GO`
-- `Λ`: `\L`, `\GL`, `\Lambda`
-- `Λ`: `\L`, `\GL`, `\Lambda`, `\Lamda`
-- `Χ`: `\GC`, `\Chi`
-- `χ`: `\c`, `\ch`, `\Gc`, `\chi`
-- `β`: `\b`, `\be`, `\Gb`, `\beta`
-- `ρ`: `\rh`, `\Gr`, `\rho`
-- `λ`: `\la`, `\lambda`, `\lamda`, `\lam`, `\Gl`, `\fun`
-- `ϥ`: `\fei`
-- `Ξ`: `\GX`, `\Xi`
-- `Ν`: `\GN`, `\Nu`
+- `Ο`: `\Omicron`
+- `Ι`: `\Iota`, `\GI`
+- `Υ`: `\Upsilon`, `\GU`
+- `Ϫ`: `\Gangia`
+- `Β`: `\GB`, `\Beta`
+- `Ε`: `\GE`, `\Epsilon`
 - `Ζ`: `\GZ`, `\Zeta`
+- `Κ`: `\GK`, `\Kappa`
+- `Μ`: `\GM`
+- `Ν`: `\GN`, `\Nu`
+- `Ξ`: `\GX`, `\Xi`
 - `Ρ`: `\GR`, `\Rho`
+- `Φ`: `\GF`, `\Phi`
+- `Χ`: `\GC`, `\Chi`
+- `Ψ`: `\GP`, `\Psi`
+- `ϥ`: `\fei`
 - `Ϥ`: `\Fei`
 - `Ϩ`: `\Hori`
 - `Ͱ`: `\Heta`
 - `Ϧ`: `\Khei`
 - `Ϟ`: `\Koppa`
-- `Κ`: `\GK`, `\Kappa`
 - `Ϻ`: `\San`
 - `Ϡ`: `\Sampi`
 - `Ϸ`: `\Sho`
 - `Ϭ`: `\Shima`
 - `Ϣ`: `\Shei`
 - `Ϛ`: `\Stigma`
-- `Σ`: `\S`, `\GS`, `\Sigma`
-- `Ψ`: `\GP`, `\Psi`
-- `Φ`: `\GF`, `\Phi`
-- `Π`: `\p`, `\P`, `\Pi`
-- `Π₀`: `\Pi0`
-- `Π₀`: `\Pi0`, `\P0`
-- `Π₀`: `\Pi0`, `\P0`, `\Pi_0`
 - `Π₀`: `\Pi0`, `\P0`, `\Pi_0`, `\P_0`
 - `ϱ`: `\varrho`
 - `ϰ`: `\varkappa`
@@ -584,17 +372,11 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - `ϕ`: `\varphi`
 - `ϑ`: `\vartheta`
 - `ϐ`: `\varbeta`
-- `ς`: `\vsi`, `\varsigma`
 - `ϟ`: `\koppa`
-- `κ`: `\ka`, `\Gk`, `\kappa`
 - `ϧ`: `\khei`
 - `Ϯ`: `\Dei`
-- `Δ`: `\D`, `\GD`, `\Delta`
 - `Ϝ`: `\Digamma`
-- `ζ`: `\ze`, `\Gz`, `\zeta`
 - `Η`: `\Eta`
-- `Ε`: `\GE`, `\Epsilon`
-- `Β`: `\GB`, `\Beta`
 - `Ϳ`: `\Yot` 
 
 ## Latin Extended-A
@@ -636,10 +418,10 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ## Latin-1 Supplement
 
-- `¬`: `\n`
-- `×`: `\x`
+- `¬`: `\n`, `\not`, `\neg`, `\lnot`
+- `×`: `\x`, `\times`, `\multiplication`, `\X`
 - `¿`: `\?`
-- `Ø`: `\O`
+- `Ø`: `\O`, `\/O`
 - `¡`: `\!`
 - `À`: `\`A`
 - `Á`: `\'A`
@@ -661,7 +443,6 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - `Ô`: `\^{O}`
 - `Õ`: `\~O`
 - `Ö`: `\"O`
-- `Ø`: `\O`, `\/O`
 - `Ù`: `\`U`
 - `Ú`: `\'U`
 - `Û`: `\^{U}`
@@ -694,111 +475,77 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - `ü`: `\"u`
 - `ý`: `\'y`
 - `ÿ`: `\"y`
-- `¬`: `\n`, `\not`
-- `¬`: `\n`, `\not`, `\neg`
 - `å`: `\aa`
 - `æ`: `\ae`
-- `ª`: `\ordfeminine`
-- `º`: `\ordmasculine`
-- `×`: `\x`, `\times`
-- `µ`: `\textmu`
+- `ª`: `\ordfeminine`, `\^a_`
+- `º`: `\ordmasculine`, `\^o_`
+- `µ`: `\textmu`, `\micro`
 - `°`: `\degree`
-- `÷`: `\division`
 - `÷`: `\division`, `\div`
 - `ð`: `\dh`
-- `µ`: `\textmu`, `\micro`
-- `×`: `\x`, `\times`, `\multiplication`
-- `£`: `\pounds`
 - `£`: `\pounds`, `\pound`
-- `¶`: `\paragraph`
-- `±`: `\pm`
 - `¶`: `\paragraph`, `\pilcrow`
-- `¬`: `\n`, `\not`, `\neg`, `\lnot`
+- `±`: `\pm`
 - `§`: `\section`
 - `Þ`: `\TH`
 - `Å`: `\AA`
 - `Æ`: `\AE`
 - `¤`: `\currency`
 - `©`: `\copyright`
-- `®`: `\circledR`
+- `®`: `\circledR`, `\registered`
 - `·`: `\centerdot`
 - `¢`: `\cent`
 - `¦`: `\brokenbar`
-- `®`: `\circledR`, `\registered`
-- `«`: `\f<<`
-- `»`: `\f>>`
-- `½`: `\frac12`
-- `¼`: `\frac14`
-- `¾`: `\frac34`
-- `¼`: `\frac14`, `\frac`
-- `»`: `\f>>`, `\frqq`
 - `«`: `\f<<`, `\flqq`
+- `»`: `\f>>`, `\frqq`
+- `½`: `\frac12`
+- `¼`: `\frac14`, `\frac`
+- `¾`: `\frac34`
 - `¹`: `\^1`
 - `²`: `\^2`
 - `³`: `\^3`
-- `º`: `\ordmasculine`, `\^o_`
-- `ª`: `\ordfeminine`, `\^a_`
 - `¥`: `\yen`
 - `Ð`: `\DH`
-- `×`: `\x`, `\times`, `\multiplication`, `\X`
 - `×ᶠ`: `\xf` 
 
 ## Letterlike Symbols
 
 - `⅋`: `\&`
-- `ℂ`: `\C`
-- `ℍ`: `\H`
-- `ℕ`: `\N`
-- `ℚ`: `\Q`
-- `ℝ`: `\R`
-- `ℤ`: `\Z`
-- `ℕ`: `\N`, `\nat`
-- `№`: `\numero`
+- `ℂ`: `\C`, `\Com`, `\com`, `\bc`, `\bbC`
+- `ℍ`: `\H`, `\bbH`
+- `ℕ`: `\N`, `\nat`, `\bn`, `\Nat`, `\bbN`
+- `ℚ`: `\Q`, `\bq`, `\rat`, `\Rat`, `\bbQ`
+- `ℝ`: `\R`, `\br`, `\real`, `\Real`, `\bbR`
+- `ℤ`: `\Z`, `\int`, `\Int`, `\bz`, `\bbZ`
+- `№`: `\numero`, `\textnumero`
 - `ℓ`: `\ell`
-- `ℤ`: `\Z`, `\int`
 - `ℏ`: `\hbar`
 - `Å`: `\angstrom`
 - `ℵ`: `\aleph`
 - `Ω`: `\ohm`
 - `℥`: `\ounce`
-- `℡`: `\telephone`
+- `℡`: `\telephone`, `\^TEL`
 - `℗`: `\textcircledP`
-- `№`: `\numero`, `\textnumero`
 - `℞`: `\textrecipe`
 - `℮`: `\textestimated`
 - `ℸ`: `\daleth`
-- `ℐ`: `\mathscr{I}`
+- `ℐ`: `\mathscr{I}`, `\McI`
 - `℧`: `\mho`
 - `⅌`: `\per`
 - `ℷ`: `\gimel`
-- `ℤ`: `\Z`, `\int`, `\Int`
-- `ℑ`: `\Im`
-- `ℂ`: `\C`, `\Com`
-- `ℂ`: `\C`, `\Com`, `\com`
+- `ℑ`: `\Im`, `\MfI`
 - `℃`: `\celsius`
-- `ℕ`: `\N`, `\nat`, `\bn`
-- `ℤ`: `\Z`, `\int`, `\Int`, `\bz`
-- `ℚ`: `\Q`, `\bq`
-- `ℝ`: `\R`, `\br`
-- `ℂ`: `\C`, `\Com`, `\com`, `\bc`
-- `ℙ`: `\bp`
+- `ℙ`: `\bp`, `\bbP`
 - `⅀`: `\bsum`
 - `ℶ`: `\beth`
-- `ℝ`: `\R`, `\br`, `\real`
-- `ℚ`: `\Q`, `\bq`, `\rat`
 - `℻`: `\facsimile`
-- `ℕ`: `\N`, `\nat`, `\bn`, `\Nat`
-- `ℚ`: `\Q`, `\bq`, `\rat`, `\Rat`
-- `ℝ`: `\R`, `\br`, `\real`, `\Real`
-- `ℜ`: `\Re`
+- `ℜ`: `\Re`, `\MfR`
 - `℠`: `\^SM`
-- `℡`: `\telephone`, `\^TEL`
 - `™`: `\^TM`
 - `ℬ`: `\McB`
 - `ℰ`: `\McE`
 - `ℱ`: `\McF`
 - `ℋ`: `\McH`
-- `ℐ`: `\mathscr{I}`, `\McI`
 - `ℒ`: `\McL`
 - `ℳ`: `\McM`
 - `ℛ`: `\McR`
@@ -807,31 +554,19 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - `ℴ`: `\Mco`
 - `ℭ`: `\MfC`
 - `ℌ`: `\MfH`
-- `ℑ`: `\Im`, `\MfI`
-- `ℜ`: `\Re`, `\MfR`
 - `ℨ`: `\MfZ`
 - `K`: `\kelvin`
 - `℘`: `\wp`
-- `ℂ`: `\C`, `\Com`, `\com`, `\bc`, `\bbC`
-- `ℍ`: `\H`, `\bbH`
-- `ℕ`: `\N`, `\nat`, `\bn`, `\Nat`, `\bbN`
-- `ℙ`: `\bp`, `\bbP`
-- `ℚ`: `\Q`, `\bq`, `\rat`, `\Rat`, `\bbQ`
-- `ℝ`: `\R`, `\br`, `\real`, `\Real`, `\bbR`
-- `ℤ`: `\Z`, `\int`, `\Int`, `\bz`, `\bbZ`
-- `ℝ≥0`: `\Rge0`
-- `ℝ≥0`: `\Rge0`, `\R>=0`
 - `ℝ≥0`: `\Rge0`, `\R>=0`, `\nnreal`
-- `ℤ√`: `\Zsqrt`
 - `ℤ√`: `\Zsqrt`, `\zsqrtd` 
 
 ## Mathematical Alphanumeric Symbols
 
-- `𝔸`: `\A`
-- `𝔽`: `\F`
-- `𝕂`: `\K`
-- `𝒫`: `\powerset`
-- `𝔹`: `\bb`
+- `𝔸`: `\A`, `\bbA`
+- `𝔽`: `\F`, `\bbF`
+- `𝕂`: `\K`, `\bbK`
+- `𝒫`: `\powerset`, `\McP`
+- `𝔹`: `\bb`, `\bbB`
 - `𝟘`: `\b0`
 - `𝟙`: `\b1`
 - `𝟚`: `\b2`
@@ -953,7 +688,6 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - `𝒦`: `\McK`
 - `𝒩`: `\McN`
 - `𝒪`: `\McO`
-- `𝒫`: `\powerset`, `\McP`
 - `𝒬`: `\McQ`
 - `𝒮`: `\McS`
 - `𝒯`: `\McT`
@@ -999,7 +733,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - `𝓚`: `\MCK`
 - `𝓛`: `\MCL`
 - `𝓜`: `\MCM`
-- `𝓝`: `\MCN`
+- `𝓝`: `\MCN`, `\nhds`, `\nbhds`
 - `𝓞`: `\MCO`
 - `𝓟`: `\MCP`
 - `𝓠`: `\MCQ`
@@ -1085,15 +819,11 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - `𝔵`: `\Mfx`
 - `𝔶`: `\Mfy`
 - `𝔷`: `\Mfz`
-- `𝔸`: `\A`, `\bbA`
-- `𝔹`: `\bb`, `\bbB`
 - `𝔻`: `\bbD`
 - `𝔼`: `\bbE`
-- `𝔽`: `\F`, `\bbF`
 - `𝔾`: `\bbG`
 - `𝕀`: `\bbI`
 - `𝕁`: `\bbJ`
-- `𝕂`: `\K`, `\bbK`
 - `𝕃`: `\bbL`
 - `𝕄`: `\bbM`
 - `𝕆`: `\bbO`
@@ -1104,347 +834,207 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - `𝕎`: `\bbW`
 - `𝕏`: `\bbX`
 - `𝕐`: `\bbY`
-- `𝕜`: `\bbk`
-- `𝓝`: `\MCN`, `\nhds`
-- `𝓝`: `\MCN`, `\nhds`, `\nbhds` 
+- `𝕜`: `\bbk` 
 
 ## Mathematical Operators
 
-- `∩`: `\i`
-- `∘`: `\o`
-- `∨`: `\v`
-- `∼`: `\~`
+- `∩`: `\i`, `\intersection`, `\cap`
+- `∘`: `\o`, `\comp`, `\circ`
+- `∨`: `\v`, `\or`, `\vee`
+- `∼`: `\~`, `\homotopy`, `\thicksim`, `\sim`
 - `∙`: `\.`
-- `⋆`: `\*`
-- `⋂`: `\I`
+- `⋆`: `\*`, `\star`, `\st`
+- `⋂`: `\I`, `\bigcap`
 - `⋂₀`: `\I0`
-- `⋃`: `\U`
+- `⋃`: `\U`, `\Un`, `\bigcup`
 - `⋃₀`: `\U0`
 - `∶`: `\:`
-- `∣`: `\|`
-- `∉`: `\notin`
+- `∣`: `\|`, `\mid`, `\shortmid`
+- `∉`: `\notin`, `\inn`
 - `∌`: `\nin`
 - `∋`: `\ni`
 - `∇`: `\nabla`
-- `≉`: `\napprox`
-- `⊯`: `\nVDash`
-- `⊮`: `\nVdash`
-- `≇`: `\ncong`
-- `≢`: `\nequiv`
-- `≠`: `\neq`
-- `∄`: `\nexists`
-- `≠`: `\neq`, `\ne`
-- `≱`: `\ngeqq`
-- `≱`: `\ngeqq`, `\ngeqslant`
-- `≱`: `\ngeqq`, `\ngeqslant`, `\ngeq`
-- `≯`: `\ngtr`
-- `≰`: `\nleqq`
-- `≰`: `\nleqq`, `\nleqslant`
-- `≰`: `\nleqq`, `\nleqslant`, `\nleq`
-- `≮`: `\nless`
-- `∤`: `\nmid`
-- `∦`: `\nparallel`
+- `≉`: `\napprox`, `\~~n`
+- `⊯`: `\nVDash`, `\||=n`
+- `⊮`: `\nVdash`, `\||-n`
+- `≇`: `\ncong`, `\~=n`
+- `≢`: `\nequiv`, `\==n`
+- `≠`: `\neq`, `\ne`, `\eqn`, `\=n`
+- `∄`: `\nexists`, `\exn`
+- `≱`: `\ngeqq`, `\ngeqslant`, `\ngeq`, `\geqn`, `\gen`, `\>=n`
+- `≯`: `\ngtr`, `\>n`
+- `≰`: `\nleqq`, `\nleqslant`, `\nleq`, `\leqn`, `\len`, `\<=n`
+- `≮`: `\nless`, `\<n`
+- `∤`: `\nmid`, `\nshortmid`, `\|n`
+- `∦`: `\nparallel`, `\nshortparallel`, `\||n`
 - `⋠`: `\npreceq`
 - `⊀`: `\nprec`
-- `∤`: `\nmid`, `\nshortmid`
-- `∦`: `\nparallel`, `\nshortparallel`
-- `≄`: `\nsimeq`
-- `≁`: `\nsim`
-- `⊈`: `\nsubseteqq`
-- `⊈`: `\nsubseteqq`, `\nsubseteq`
-- `⊄`: `\nsubset`
+- `≄`: `\nsimeq`, `\~-n`
+- `≁`: `\nsim`, `\~n`
+- `⊈`: `\nsubseteqq`, `\nsubseteq`, `\subn`
+- `⊄`: `\nsubset`, `\ssubn`
 - `⋡`: `\nsucceq`
 - `⊁`: `\nsucc`
-- `⊉`: `\nsupseteqq`
-- `⊉`: `\nsupseteqq`, `\nsupseteq`
-- `⊅`: `\nsupset`
+- `⊉`: `\nsupseteqq`, `\nsupseteq`, `\supn`
+- `⊅`: `\nsupset`, `\ssupn`
 - `⋬`: `\ntrianglelefteq`
 - `⋪`: `\ntriangleleft`
 - `⋭`: `\ntrianglerighteq`
 - `⋫`: `\ntriangleright`
-- `⊭`: `\nvDash`
-- `⊬`: `\nvdash`
-- `≠`: `\neq`, `\ne`, `\eqn`
-- `≃`: `\equiv`
+- `⊭`: `\nvDash`, `\|=n`
+- `⊬`: `\nvdash`, `\|-n`
+- `≃`: `\equiv`, `\~-`, `\simeq`
 - `≖`: `\eqcirc`
-- `≕`: `\eqcolon`
+- `≕`: `\eqcolon`, `\=:`
 - `⋝`: `\eqslantgtr`
 - `⋜`: `\eqslantless`
-- `⊢`: `\entails`
-- `∄`: `\nexists`, `\exn`
-- `∃`: `\exists`
+- `⊢`: `\entails`, `\|-`, `\vdash`
 - `∃`: `\exists`, `\ex`
-- `∅`: `\emptyset`
 - `∅`: `\emptyset`, `\empty`
-- `≅`: `\iso`
-- `∉`: `\notin`, `\inn`
-- `∩`: `\i`, `\intersection`
+- `≅`: `\iso`, `\~=`, `\cong`
 - `⊺`: `\intercal`
 - `∫`: `\integral`
 - `∆`: `\increment`
-- `∞`: `\infty`
 - `∞`: `\infty`, `\inf`
-- `∈`: `\in`
-- `≠`: `\neq`, `\ne`, `\eqn`, `\=n`
-- `≢`: `\nequiv`, `\==n`
+- `∈`: `\in`, `\member`, `\mem`
 - `≣`: `\===`
 - `≡`: `\==`
-- `≕`: `\eqcolon`, `\=:`
-- `≗`: `\=o`
-- `≁`: `\nsim`, `\~n`
-- `≉`: `\napprox`, `\~~n`
+- `≗`: `\=o`, `\circeq`
 - `≋`: `\~~~`
-- `≊`: `\~~-`
-- `≈`: `\~~`
-- `≄`: `\nsimeq`, `\~-n`
-- `≃`: `\equiv`, `\~-`
-- `≇`: `\ncong`, `\~=n`
-- `≅`: `\iso`, `\~=`
-- `∼`: `\~`, `\homotopy`
+- `≊`: `\~~-`, `\approxeq`
+- `≈`: `\~~`, `\approx`, `\thickapprox`
 - `∻`: `\:~`
-- `≔`: `\:=`
+- `≔`: `\:=`, `\coloneq`
 - `∺`: `\::-`
 - `∷`: `\::`
 - `≂`: `\-~`
-- `⊣`: `\-|`
+- `⊣`: `\-|`, `\dashv`
 - `∹`: `\-:`
-- `⊸`: `\-o`
-- `≑`: `\.=.`
-- `≐`: `\.=`
-- `∔`: `\.+`
-- `∸`: `\.-`
-- `⋯`: `\...`
-- `≘`: `\(=`
-- `≙`: `\and=`
-- `∧`: `\and`
-- `∧`: `\and`, `\an`
-- `∟`: `\angle`
-- `∀`: `\all`
-- `∀ᶠ`: `\allf`
-- `∀ᶠ`: `\allf`, `\all^f`
-- `∀ₘ`: `\allm`
-- `∀ₘ`: `\allm`, `\all_m`
-- `∗`: `\ast`
-- `≍`: `\asymp`
-- `≊`: `\~~-`, `\approxeq`
-- `≈`: `\~~`, `\approx`
-- `∐`: `\amalg`
-- `≚`: `\or=`
-- `∨`: `\v`, `\or`
-- `⊕`: `\oplus`
-- `⊕`: `\oplus`, `\o+`
-- `⊖`: `\o--`
-- `⊝`: `\o-`
-- `⊗`: `\ox`
-- `⊘`: `\o/`
-- `⊙`: `\o.`
-- `⊚`: `\oo`
-- `∘*`: `\o*`
-- `⊜`: `\o=`
-- `⊖`: `\o--`, `\ominus`
-- `⊙`: `\o.`, `\odot`
-- `∮`: `\oint`
-- `⊘`: `\o/`, `\oslash`
-- `⊗`: `\ox`, `\otimes`
-- `≛`: `\*=`
-- `≜`: `\t=`
-- `⊴`: `\trianglelefteq`
-- `≜`: `\t=`, `\triangleq`
-- `⊵`: `\trianglerighteq`
-- `∴`: `\therefore`
-- `≈`: `\~~`, `\approx`, `\thickapprox`
-- `∼`: `\~`, `\homotopy`, `\thicksim`
-- `⊤`: `\top`
-- `≝`: `\def=`
-- `≙`: `\and=`, `\defs`
+- `⊸`: `\-o`, `\multimap`, `\r-o`
 - `≑`: `\.=.`, `\doteqdot`
 - `≐`: `\.=`, `\doteq`
 - `∔`: `\.+`, `\dotplus`
-- `⊡`: `\dotsquare`
+- `∸`: `\.-`
+- `⋯`: `\...`, `\cdots`
+- `≘`: `\(=`
+- `≙`: `\and=`, `\defs`
+- `∧`: `\and`, `\an`, `\wedge`
+- `∟`: `\angle`
+- `∀`: `\all`, `\forall`
+- `∀ᶠ`: `\allf`, `\all^f`
+- `∀ₘ`: `\allm`, `\all_m`
+- `∗`: `\ast`
+- `≍`: `\asymp`
+- `∐`: `\amalg`, `\smallamalg`, `\sigmaobj`, `\bigcoprod`
+- `≚`: `\or=`
+- `⊕`: `\oplus`, `\o+`
+- `⊖`: `\o--`, `\ominus`
+- `⊝`: `\o-`, `\circleddash`
+- `⊗`: `\ox`, `\otimes`
+- `⊘`: `\o/`, `\oslash`
+- `⊙`: `\o.`, `\odot`
+- `⊚`: `\oo`, `\circledcirc`
+- `∘*`: `\o*`
+- `⊜`: `\o=`
+- `∮`: `\oint`
+- `≛`: `\*=`
+- `≜`: `\t=`, `\triangleq`
+- `⊴`: `\trianglelefteq`
+- `⊵`: `\trianglerighteq`
+- `∴`: `\therefore`
+- `⊤`: `\top`
+- `≝`: `\def=`
+- `⊡`: `\dotsquare`, `\b.`
 - `⋱`: `\ddots`
 - `⋇`: `\divideontimes`
 - `⋄`: `\diamond`
-- `⊣`: `\-|`, `\dashv`
 - `≞`: `\m=`
-- `∈`: `\in`, `\member`
-- `∈`: `\in`, `\member`, `\mem`
 - `∡`: `\measuredangle`
 - `−`: `\minus`
-- `∣`: `\|`, `\mid`
-- `⊸`: `\-o`, `\multimap`
 - `⊧`: `\models`
 - `∓`: `\mp`
 - `≟`: `\?=`
 - `∏`: `\prod`
-- `∝`: `\propto`
-- `≾`: `\precapprox`
-- `≼`: `\preceq`
-- `⋨`: `\precnapprox`
-- `⋨`: `\precnapprox`, `\precnsim`
+- `∝`: `\propto`, `\varpropto`
 - `≾`: `\precapprox`, `\precsim`
+- `≼`: `\preceq`, `\curlypreceq`
+- `⋨`: `\precnapprox`, `\precnsim`
 - `≺`: `\prec`
 - `∂`: `\partial`
-- `∥`: `\parallel`
-- `⊥`: `\perp`
+- `∥`: `\parallel`, `\shortparallel`, `\||`
+- `⊥`: `\perp`, `\bot`
 - `⋔`: `\pitchfork`
-- `≰`: `\nleqq`, `\nleqslant`, `\nleq`, `\leqn`
 - `≦`: `\leqq`
-- `≤`: `\leqslant`
-- `≤`: `\leqslant`, `\leq`
-- `≰`: `\nleqq`, `\nleqslant`, `\nleq`, `\leqn`, `\len`
+- `≤`: `\leqslant`, `\leq`, `\le`, `\<=`
 - `⋋`: `\leftthreetimes`
-- `≲`: `\lessapprox`
+- `≲`: `\lessapprox`, `\lesssim`, `\<~`
 - `⋖`: `\lessdot`
-- `⋚`: `\lesseqgtr`
 - `⋚`: `\lesseqgtr`, `\lesseqqgtr`
 - `≶`: `\lessgtr`
-- `≲`: `\lessapprox`, `\lesssim`
-- `≤`: `\leqslant`, `\leq`, `\le`
-- `⊔`: `\lub`
+- `⊔`: `\lub`, `\sqcup`
 - `≪`: `\ll`
-- `⋦`: `\lnapprox`
-- `≨`: `\lneqq`
-- `≨`: `\lneqq`, `\lneq`
-- `⋦`: `\lnapprox`, `\lnsim`
-- `⋉`: `\ltimes`
+- `⋦`: `\lnapprox`, `\lnsim`, `\<~n`
 - `≨`: `\lneqq`, `\lneq`, `\lvertneqq`
-- `≱`: `\ngeqq`, `\ngeqslant`, `\ngeq`, `\geqn`
+- `⋉`: `\ltimes`
 - `≧`: `\geqq`
-- `≥`: `\geqslant`
-- `≥`: `\geqslant`, `\geq`
-- `≱`: `\ngeqq`, `\ngeqslant`, `\ngeq`, `\geqn`, `\gen`
-- `≥`: `\geqslant`, `\geq`, `\ge`
-- `⊓`: `\glb`
+- `≥`: `\geqslant`, `\geq`, `\ge`, `\>=`
+- `⊓`: `\glb`, `\sqcap`
 - `⋙`: `\ggg`
 - `≫`: `\gg`
-- `⋧`: `\gnapprox`
-- `≩`: `\gneqq`
-- `≩`: `\gneqq`, `\gneq`
-- `⋧`: `\gnapprox`, `\gnsim`
-- `≳`: `\gtrapprox`
+- `⋧`: `\gnapprox`, `\gnsim`, `\>~n`
+- `≩`: `\gneqq`, `\gneq`, `\gvertneqq`
+- `≳`: `\gtrapprox`, `\gtrsim`, `\>~`
 - `⋗`: `\gtrdot`
-- `⋛`: `\gtreqless`
 - `⋛`: `\gtreqless`, `\gtreqqless`
 - `≷`: `\gtrless`
-- `≳`: `\gtrapprox`, `\gtrsim`
-- `≩`: `\gneqq`, `\gneq`, `\gvertneqq`
-- `≰`: `\nleqq`, `\nleqslant`, `\nleq`, `\leqn`, `\len`, `\<=n`
-- `≤`: `\leqslant`, `\leq`, `\le`, `\<=`
-- `≮`: `\nless`, `\<n`
 - `≴`: `\<~nn`
-- `⋦`: `\lnapprox`, `\lnsim`, `\<~n`
-- `≲`: `\lessapprox`, `\lesssim`, `\<~`
-- `≱`: `\ngeqq`, `\ngeqslant`, `\ngeq`, `\geqn`, `\gen`, `\>=n`
-- `≥`: `\geqslant`, `\geq`, `\ge`, `\>=`
-- `≯`: `\ngtr`, `\>n`
 - `≵`: `\>~nn`
-- `⋧`: `\gnapprox`, `\gnsim`, `\>~n`
-- `≳`: `\gtrapprox`, `\gtrsim`, `\>~`
-- `√`: `\root`
-- `⊄`: `\nsubset`, `\ssubn`
-- `⊂`: `\ssub`
-- `⊅`: `\nsupset`, `\ssupn`
-- `⊃`: `\ssup`
-- `⊏`: `\ssqub`
-- `⊐`: `\ssqup`
-- `⊆`: `\ss`
-- `⊈`: `\nsubseteqq`, `\nsubseteq`, `\subn`
-- `⊆`: `\ss`, `\subseteqq`
-- `⊆`: `\ss`, `\subseteqq`, `\subseteq`
-- `⊊`: `\subsetneqq`
-- `⊊`: `\subsetneqq`, `\subsetneq`
+- `√`: `\root`, `\surd`, `\sqrt`
 - `⊂`: `\ssub`, `\subset`
-- `⊆`: `\ss`, `\subseteqq`, `\subseteq`, `\sub`
-- `⊉`: `\nsupseteqq`, `\nsupseteq`, `\supn`
-- `⊇`: `\supseteqq`
-- `⊇`: `\supseteqq`, `\supseteq`
-- `⊋`: `\supsetneqq`
-- `⊋`: `\supsetneqq`, `\supsetneq`
 - `⊃`: `\ssup`, `\supset`
+- `⊏`: `\ssqub`, `\sqsubset`
+- `⊐`: `\ssqup`, `\sqsupset`
+- `⊆`: `\ss`, `\subseteqq`, `\subseteq`, `\sub`
+- `⊊`: `\subsetneqq`, `\subsetneq`
 - `⊇`: `\supseteqq`, `\supseteq`, `\sup`
+- `⊋`: `\supsetneqq`, `\supsetneq`
 - `∛`: `\surd3`
 - `∜`: `\surd4`
-- `√`: `\root`, `\surd`
-- `≿`: `\succapprox`
-- `≽`: `\succcurlyeq`
-- `≽`: `\succcurlyeq`, `\succeq`
-- `⋩`: `\succnapprox`
-- `⋩`: `\succnapprox`, `\succnsim`
 - `≿`: `\succapprox`, `\succsim`
+- `≽`: `\succcurlyeq`, `\succeq`
+- `⋩`: `\succnapprox`, `\succnsim`
 - `≻`: `\succ`
 - `∑`: `\sum`
 - `⋢`: `\squbn`
-- `⊑`: `\squb`
-- `⋣`: `\squpn`
-- `⊒`: `\squp`
-- `⊓`: `\glb`, `\sqcap`
-- `⊔`: `\lub`, `\sqcup`
-- `√`: `\root`, `\surd`, `\sqrt`
 - `⊑`: `\squb`, `\sqsubseteq`
-- `⊏`: `\ssqub`, `\sqsubset`
+- `⋣`: `\squpn`
 - `⊒`: `\squp`, `\sqsupseteq`
-- `⊐`: `\ssqup`, `\sqsupset`
-- `⋆`: `\*`, `\star`
-- `⋆`: `\*`, `\star`, `\st`
 - `∢`: `\sphericalangle`
-- `∖`: `\setminus`
-- `∣`: `\|`, `\mid`, `\shortmid`
-- `∥`: `\parallel`, `\shortparallel`
-- `≃`: `\equiv`, `\~-`, `\simeq`
-- `∼`: `\~`, `\homotopy`, `\thicksim`, `\sim`
-- `∐`: `\amalg`, `\smallamalg`
 - `∖`: `\setminus`, `\smallsetminus`
-- `∪`: `\union`
-- `∪`: `\union`, `\un`
-- `⊎`: `\u+`
-- `⊍`: `\u.`
+- `∪`: `\union`, `\un`, `\cup`
 - `⊎`: `\u+`, `\uplus`
-- `⋀`: `\And`
-- `⋁`: `\Or`
-- `⋃`: `\U`, `\Un`
+- `⊍`: `\u.`
+- `⋀`: `\And`, `\bigwedge`
+- `⋁`: `\Or`, `\bigvee`
 - `⋘`: `\Ll`
-- `⊬`: `\nvdash`, `\|-n`
-- `⊢`: `\entails`, `\|-`
-- `⊭`: `\nvDash`, `\|=n`
-- `⊨`: `\|=`
-- `⊮`: `\nVdash`, `\||-n`
-- `⊩`: `\||-`
-- `⊯`: `\nVDash`, `\||=n`
+- `⊨`: `\|=`, `\vDash`
+- `⊩`: `\||-`, `\Vdash`
 - `⊫`: `\||=`
-- `⊪`: `\|||-`
-- `∦`: `\nparallel`, `\nshortparallel`, `\||n`
-- `∥`: `\parallel`, `\shortparallel`, `\||`
-- `∤`: `\nmid`, `\nshortmid`, `\|n`
+- `⊪`: `\|||-`, `\Vvdash`
 - `⋒`: `\Cap`
 - `⋓`: `\Cup`
 - `⋞`: `\curlyeqprec`
 - `⋟`: `\curlyeqsucc`
-- `≼`: `\preceq`, `\curlypreceq`
 - `⋎`: `\curlyvee`
 - `⋏`: `\curlywedge`
-- `∪`: `\union`, `\un`, `\cup`
-- `≅`: `\iso`, `\~=`, `\cong`
 - `∁`: `\complement`
-- `∘`: `\o`, `\comp`
-- `≔`: `\:=`, `\coloneq`
-- `⋯`: `\...`, `\cdots`
-- `≗`: `\=o`, `\circeq`
 - `⊛`: `\circledast`
-- `⊚`: `\oo`, `\circledcirc`
-- `⊝`: `\o-`, `\circleddash`
-- `∘`: `\o`, `\comp`, `\circ`
-- `∩`: `\i`, `\intersection`, `\cap`
 - `∎`: `\qed`
 - `⊹`: `\+ `
-- `⊞`: `\b+`
-- `⊟`: `\b-`
-- `⊠`: `\bx`
-- `⊡`: `\dotsquare`, `\b.`
+- `⊞`: `\b+`, `\boxplus`
+- `⊟`: `\b-`, `\boxminus`
+- `⊠`: `\bx`, `\boxtimes`
 - `≏`: `\bumpeq`
-- `⋂`: `\I`, `\bigcap`
-- `⋃`: `\U`, `\Un`, `\bigcup`
-- `⋁`: `\Or`, `\bigvee`
-- `⋀`: `\And`, `\bigwedge`
 - `≬`: `\between`
 - `∵`: `\because`
 - `≌`: `\backcong`
@@ -1452,49 +1042,28 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - `⋍`: `\backsimeq`
 - `∽`: `\backsim`
 - `⊼`: `\barwedge`
-- `⊥`: `\perp`, `\bot`
-- `⋈`: `\bowtie`
-- `⊟`: `\b-`, `\boxminus`
-- `⊞`: `\b+`, `\boxplus`
-- `⊠`: `\bx`, `\boxtimes`
-- `⋈`: `\bowtie`, `\join`
-- `⊸`: `\-o`, `\multimap`, `\r-o`
+- `⋈`: `\bowtie`, `\join`, `\Join`
 - `⋌`: `\rightthreetimes`
 - `≓`: `\risingdotseq`
 - `⋊`: `\rtimes`
 - `≒`: `\fallingdotseq`
-- `∀`: `\all`, `\forall`
 - `⋐`: `\Subset`
 - `⋑`: `\Supset`
-- `∝`: `\propto`, `\varpropto`
 - `⊲`: `\vartriangleleft`
 - `⊳`: `\vartriangleright`
 - `⊻`: `\veebar`
-- `∨`: `\v`, `\or`, `\vee`
-- `⊢`: `\entails`, `\|-`, `\vdash`
 - `⋮`: `\vdots`
-- `⊨`: `\|=`, `\vDash`
-- `∧`: `\and`, `\an`, `\wedge`
 - `≀`: `\wr`
 - `≎`: `\Bumpeq`
-- `∐`: `\amalg`, `\smallamalg`, `\sigmaobj`
-- `∐`: `\amalg`, `\smallamalg`, `\sigmaobj`, `\bigcoprod`
-- `∃ᶠ`: `\exf`
-- `⋈`: `\bowtie`, `\join`, `\Join`
-- `⊩`: `\||-`, `\Vdash`
-- `⊪`: `\|||-`, `\Vvdash` 
+- `∃ᶠ`: `\exf` 
 
 ## Miscellaneous Mathematical Symbols-A
 
-- `⟨`: `\<`
-- `⟩`: `\>`
-- `⟅`: `\(b`
-- `⟅`: `\(b`, `\lbag`
 - `⟨`: `\<`, `\langle`
+- `⟩`: `\>`, `\rangle`
+- `⟅`: `\(b`, `\lbag`
 - `⟪`: `\<<`
 - `⟫`: `\>>`
-- `⟆`: `\rbag`
-- `⟩`: `\>`, `\rangle`
 - `⟆`: `\rbag`, `\)b`
 - `⟦`: `\[[`
 - `⟧`: `\]]`
@@ -1503,14 +1072,12 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ## Miscellaneous Mathematical Symbols-B
 
-- `⦃`: `\{{`
-- `⦄`: `\}}`
 - `⦃`: `\{{`, `\c[`
 - `⦄`: `\}}`, `\c]` 
 
 ## Miscellaneous Symbols
 
-- `♯`: `\#`
+- `♯`: `\#`, `\sharp`
 - `♩`: `\note`
 - `♮`: `\natural`
 - `♥`: `\heartsuit`
@@ -1519,7 +1086,6 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - `♢`: `\diamondsuit`
 - `♂`: `\male`
 - `♠`: `\spadesuit`
-- `♯`: `\#`, `\sharp`
 - `♣`: `\clubsuit`
 - `☡`: `\caution`
 - `☣`: `\biohazard`
@@ -1534,35 +1100,21 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ## Miscellaneous Symbols and Arrows
 
-- `⬝`: `\tr`
-- `⬝`: `\tr`, `\dot`
-- `⯑`: `\uncertainty`
-- `⬝`: `\tr`, `\dot`, `\con`
-- `⬝`: `\tr`, `\dot`, `\con`, `\cdot` 
+- `⬝`: `\tr`, `\dot`, `\con`, `\cdot`
+- `⯑`: `\uncertainty` 
 
 ## Miscellaneous Technical
 
 - `⌶`: `\apl`
 - `⌀`: `\diameter`
-- `⌟`: `\lrcorner`
-- `⌞`: `\llcorner`
-- `⌈`: `\lceil`
-- `⌊`: `\lfloor`
-- `⌣`: `\smallsmile`
-- `⌣`: `\smallsmile`, `\smile`
-- `⌜`: `\ulcorner`
-- `⌝`: `\urcorner`
-- `⍟`: `\O*`
-- `⌜`: `\ulcorner`, `\cul`
-- `⌈`: `\lceil`, `\cuL`
-- `⌝`: `\urcorner`, `\cur`
-- `⌉`: `\cuR`
-- `⌜`: `\ulcorner`, `\cul`, `\cu`
-- `⌞`: `\llcorner`, `\cll`
-- `⌊`: `\lfloor`, `\clL`
 - `⌟`: `\lrcorner`, `\clr`
-- `⌋`: `\clR`
 - `⌞`: `\llcorner`, `\cll`, `\cl`
+- `⌈`: `\lceil`, `\cuL`
+- `⌊`: `\lfloor`, `\clL`
+- `⌣`: `\smallsmile`, `\smile`
+- `⌜`: `\ulcorner`, `\cul`, `\cu`
+- `⌝`: `\urcorner`, `\cur`
+- `⍟`: `\O*`
 - `⌉`: `\cuR`, `\rceil`
 - `⌋`: `\clR`, `\rfloor`
 - `⌢`: `\frown` 
@@ -1676,9 +1228,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 ## Spacing Modifier Letters
 
 - `ˣ`: `\^x`
-- `ʱ`: `\^hhook`
 - `ʱ`: `\^hhook`, `\^hwithhook`
-- `ʵ`: `\^turnedrhook`
 - `ʵ`: `\^turnedrhook`, `\^turnedrwithhook`
 - `ʴ`: `\^turnedr`
 - `ʶ`: `\^Rinverted`
@@ -1687,23 +1237,19 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ## Superscripts and Subscripts
 
-- `₀`: `\0`
-- `₁`: `\1`
-- `₂`: `\2`
-- `₃`: `\3`
-- `₄`: `\4`
-- `₅`: `\5`
-- `₆`: `\6`
-- `₇`: `\7`
-- `₈`: `\8`
-- `₉`: `\9`
-- `⁻¹`: `\-`
-- `⁻¹`: `\-`, `\inv`
-- `⁻¹`: `\-`, `\inv`, `\-1`
-- `⁻¹`: `\-`, `\inv`, `\-1`, `\^-1`
+- `₀`: `\0`, `\_0`
+- `₁`: `\1`, `\_1`
+- `₂`: `\2`, `\_2`
+- `₃`: `\3`, `\_3`
+- `₄`: `\4`, `\_4`
+- `₅`: `\5`, `\_5`
+- `₆`: `\6`, `\_6`
+- `₇`: `\7`, `\_7`
+- `₈`: `\8`, `\_8`
+- `₉`: `\9`, `\_9`
+- `⁻¹`: `\-`, `\inv`, `\-1`, `\^-1`, `\sy`
 - `⁻²`: `\-2`
 - `⁻³`: `\-3`
-- `⁻¹`: `\-`, `\inv`, `\-1`, `\^-1`, `\sy`
 - `ⁱ`: `\^i`
 - `ⁿ`: `\^n`
 - `⁰`: `\^0`
@@ -1730,16 +1276,6 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - `ₛ`: `\_s`
 - `ₜ`: `\_t`
 - `ₓ`: `\_x`
-- `₀`: `\0`, `\_0`
-- `₁`: `\1`, `\_1`
-- `₂`: `\2`, `\_2`
-- `₃`: `\3`, `\_3`
-- `₄`: `\4`, `\_4`
-- `₅`: `\5`, `\_5`
-- `₆`: `\6`, `\_6`
-- `₇`: `\7`, `\_7`
-- `₈`: `\8`, `\_8`
-- `₉`: `\9`, `\_9`
 - `₎`: `\_)`
 - `₍`: `\_(`
 - `₌`: `\_=`
@@ -1748,21 +1284,12 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ## Supplemental Arrows-A
 
-- `⟹`: `\nattrans`
-- `⟹`: `\nattrans`, `\nat_trans`
 - `⟹`: `\nattrans`, `\nat_trans`, `\==>`
-- `⟶`: `\hom`
-- `⟶`: `\hom`, `\-->`
+- `⟶`: `\hom`, `\-->`, `\longrightarrow`, `\r--`
 - `⟱`: `\d==`
-- `⟷`: `\lr--`
-- `⟵`: `\l--`
-- `⟵`: `\l--`, `\longleftarrow`
-- `⟷`: `\lr--`, `\longleftrightarrow`
-- `⟶`: `\hom`, `\-->`, `\longrightarrow`
 - `⟷`: `\lr--`, `\longleftrightarrow`, `\<-->`
 - `⟵`: `\l--`, `\longleftarrow`, `\<--`
-- `⟰`: `\u==`
-- `⟶`: `\hom`, `\-->`, `\longrightarrow`, `\r--` 
+- `⟰`: `\u==` 
 
 ## Supplemental Arrows-B
 
@@ -1777,7 +1304,6 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - `⨃`: `\U.`
 - `⨅`: `\Glb`
 - `⨆`: `\Lub`
-- `⨯`: `\vectorproduct`
 - `⨯`: `\vectorproduct`, `\crossproduct`
 - `⨿`: `\coprod` 
 
