@@ -15,5 +15,5 @@ cd <%= repoDir %>
 %>
 ## <%= b %>
 
-<%- syms.map((s) => '- ' + renderBind(s)).join('\n') %> 
+<%- syms.sort((s1, s2) => s1.sym.codePointAt(0) < s2.sym.codePointAt(0) ? -1 : 1).map((s) => '- ' + renderBind(s)).join('\n') %> 
 <% }) %>
